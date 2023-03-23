@@ -4,6 +4,8 @@ import { BsFillPersonFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import Link from 'next/link'
+import Typing from '../img/type_fast.jpg'
+import Image from 'next/image'
 
 const Contact = () => {
   return (
@@ -16,7 +18,7 @@ const Contact = () => {
                   <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                       <div className='lg:p-4 h-full rounded-xl'>
                           <div>
-                              <img className='rounded-xl hover:scale-105 ease-in duration-300' src='/' alt='Contact Type Photo'/>
+                              <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={Typing} alt='Gotta type fast'/>
                           </div>
                           <div>
                               <h2>Name here</h2>
