@@ -4,6 +4,7 @@ import unitedImg from '../img/united_app.png'
 import Link from 'next/link'
 import ProjectItem from './ProjectItem'
 import playGames from '../img/we_play_games.png'
+import Guild from '../img/gg.png'
 
 const Projects = () => {
   return (
@@ -14,15 +15,15 @@ const Projects = () => {
               <h2 className='py-4'>What I'm working on:</h2>
               <div className='grid md:grid-cols-2 gap-8'>
                   <ProjectItem title='Guild Gaming'
-                      backgroundImg={unitedImg}
-                      techStack='REACT TAILWIND PYTHON SQLAlchemy'
+                      backgroundImg={Guild}
+                      techStack='REACT TAILWIND PYTHON SQLALCHEMY'
                       projectUrl='/theguild'
                   />
-                  <ProjectItem title='Watch Co.'
+                  {/* <ProjectItem title='Watch Co.'
                       backgroundImg={playGames}
                       techStack='HTML CSS JS BOOTSTRAP'
                       projectUrl='/watches'
-                  />
+                  /> */}
               </div>
               <br />
               <br />

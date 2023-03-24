@@ -1,5 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import HTML from '../img/html.png'
+import CSS from '../img/css.png'
+import JS from '../img/js.png'
+import GH from '../img/github.png'
+import PYTH from '../img/python.png'
+import REACTIMG from '../img/react.png'
 
 const Skills = () => {
     return (
@@ -11,7 +17,7 @@ const Skills = () => {
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src=''
+                                <Image src={HTML}
                                     width='64px'
                                     height='64px'
                                     alt='HTML' />
@@ -24,7 +30,7 @@ const Skills = () => {
                       <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src=''
+                                <Image src={CSS}
                                     width='64px'
                                     height='64px'
                                     alt='CSS' />
@@ -37,7 +43,7 @@ const Skills = () => {
                       <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src=''
+                                <Image src={JS}
                                     width='64px'
                                     height='64px'
                                     alt='JavaScript' />
@@ -50,7 +56,7 @@ const Skills = () => {
                       <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src=''
+                                <Image src={REACTIMG}
                                     width='64px'
                                     height='64px'
                                     alt='React' />
@@ -63,7 +69,7 @@ const Skills = () => {
                       <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src=''
+                                <Image src={PYTH}
                                     width='64px'
                                     height='64px'
                                     alt='Python' />
@@ -76,7 +82,7 @@ const Skills = () => {
                       <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src=''
+                                <Image src={GH}
                                     width='64px'
                                     height='64px'
                                     alt='Github' />
