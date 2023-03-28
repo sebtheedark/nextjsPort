@@ -1,7 +1,5 @@
-import Image from 'next/image'
 import React from 'react'
 import unitedImg from '../img/united_app.png'
-import Link from 'next/link'
 import ProjectItem from './ProjectItem'
 import playGames from '../img/we_play_games.png'
 import Guild from '../img/gg.png'
@@ -17,7 +15,7 @@ const Projects = () => {
                   <ProjectItem title='Guild Gaming'
                       backgroundImg={Guild}
                       techStack='REACT TAILWIND PYTHON SQLALCHEMY'
-                      projectUrl='/theguild'
+                      projectUrl='/guild'
                   />
                   {/* <ProjectItem title='Watch Co.'
                       backgroundImg={playGames}

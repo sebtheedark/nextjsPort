@@ -7,7 +7,7 @@ html {
 }
 
 @layer base {
-  body{
+  body {
     @apply bg-[#ecf0f3] text-[black] tracking-wide
   }
 

@@ -21,7 +21,7 @@ const Contact = () => {
                               <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={Typing} alt='Gotta type fast'/>
                           </div>
                           <div>
-                              <h2>Name here</h2>
+                              <h2>Kevin De La Torre</h2>
                               <p>Frontend Developer</p>
                               <p className='py-4'>Contact me! Lets talk and Connect!</p>
                           </div>
