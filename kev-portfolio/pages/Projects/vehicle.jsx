@@ -1,34 +1,39 @@
 import React from 'react'
-import unitedImg from '../img/united_app.png'
+import unitedImg from '../../img/united_app.png'
 import Image from 'next/image'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 
-const guild = () => {
+const vehicle = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
         <Image className='absolute z-1' fill src={unitedImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Guild Gaming</h2>
+          <h2 className='py-2'>Vehicle Inventory Mockup</h2>
           <h3>HTML / CSS / JavaScript</h3>
         </div>
       </div>
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
         <div className='col-span-4'>
           <p> Project</p>
-          <h2>Overview</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <h2>Overview: </h2>
+          <p className='pt-2'>
+            The purpose of this project was to design and showcase a shift from using an outdated vehicle inventory system
+            and possibly creating our own online based one. The code functions and allows the user to create and add various vehicles to its inventory
+            and only saves them locally in the broswer. Once the page is refreshed, the page reverts to its original state and thus
+            losing anything that was added. 
           </p>
-          <Link href={'https://www.guildgaming.gg/'}>
-            <button  className='px-8 py-2 mt-4 mr-8'>Demo</button>
+          <p className='pt-4'>
+            It was developed utilizing vanilla HTML, CSS and JavaScript and it is hosted on GitHub pages. No actual backend
+            functionality was implemented as it was simply a project to practices skills and showcase what could be done.
+          </p>
+          <Link href={'https://sebtheedark.github.io/United-Web-App/'}>
+            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </Link>
-          <Link href='/'>
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+          <Link href={'https://github.com/sebtheedark/United-Web-App'}>
+            <button className='px-8 py-2 mt-4 mr-8'>Guithub</button>
           </Link>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
@@ -50,4 +55,4 @@ const guild = () => {
   )
 }
 
-export default guild
+export default vehicle

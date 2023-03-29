@@ -17,7 +17,8 @@ const Main = () => {
                       A Frontend Web Developer
                   </h1>
                   <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                      blah blah blah here goes my work bio!
+                      Full Stack Developer with a strong emphasis in Frontend development with an in-depth knowledge of web development,
+                      understanding the importance of having responsive web design, attention to detail and ensuring pixel perfect results.
                   </p>
                   <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
