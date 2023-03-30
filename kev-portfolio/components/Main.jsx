@@ -11,7 +11,7 @@ const Main = () => {
               <div>
                   <p className='uppercase text-sm tracking-widest text-gray-600'>Come build with me</p>
                   <h1 className='py-4 text-gray-700'>
-                      Hey, I'm <span className='text-[#5651e5]'>Kevin</span>
+                      Hey, I'm <span className='text-[#2F70AF]'>Kevin</span>
                   </h1>
                   <h1 className='py-2 text-gray-700'>
                       A Frontend Web Developer
@@ -32,11 +32,13 @@ const Main = () => {
                           </Link>
                       </div>
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                          <AiOutlineMail />
+                          <Link href={'mailto:k.sdelatorre2@gmail.com'}>
+                              <AiOutlineMail />
+                          </Link>
                       </div>
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      {/* <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                           <BsFillPersonFill />
-                      </div>
+                      </div> */}
                   </div>
               </div>
           </div>

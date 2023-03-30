@@ -30,7 +30,9 @@ const Contact = () => {
                               <div className='flex items-center justify-between py-4'>
                                   <div className='flex items-center justify-between max-w-[330px] m-auto py-4 gap-6'>
                                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                          <FaLinkedinIn />
+                                          <Link href={'/'}>
+                                              <FaLinkedinIn />
+                                          </Link>
                                       </div>
                                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                           <FaGithub />
